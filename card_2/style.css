@@ -6,20 +6,20 @@
 }
 
 .container{
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .item{
     width: 360px;
-    height: 497px;
     border-radius: 12px;
+    background-color: #F7F6FA;;
 }
 
 .item__heading{
     position: relative;
-    width: 360px;
-    height: 280px;
 }
 
 .item__heading-tag{
@@ -41,15 +41,12 @@
 }
 
 .item__body{
-    background-color: #F7F6FA;
     width: 360px;
-    height: 217px;
     padding: 16px;
+    background-color: #F7F6FA ;
 }
 
 .item__content-title{
-    width: 328px;
-    height: 58px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29.05px;
@@ -57,8 +54,6 @@
 }
 
 .item__content-text{
-   width: 328px;
-   height: 38px;
    font-weight: 400;
    font-size: 16px;
    line-height: 19.36px;
@@ -67,8 +62,6 @@
 }
 
 .item__content-time{
-    width: 328px;
-    height: 17px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16.94px;
