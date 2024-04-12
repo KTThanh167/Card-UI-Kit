@@ -43,6 +43,7 @@
 .item__body{
     width: 360px;
     padding: 16px;
+    background-color: #F7F6FA ;
 }
 
 .item__content-title{
